@@ -1,2 +1,2 @@
-# rocket-overlay
-Demonstração de overlay de png sobre video
+# Overlay - Sobreposição
+Demonstração de overlay (sobreposição) de png sobre video
