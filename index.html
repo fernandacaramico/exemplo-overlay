@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste BG Video</title>
+  <style>
+    .container {
+      position: relative;
+    }
+
+    .rocket {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .foguete {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+
+  <!-- foguete em posição absoluta em relação à pagina-->
+  <div class="foguete">
+    <img src="rocket.png" height="200px">
+  </div>
+
+  <!-- foguete posicionado em relação ao elemento pai-->
+  <div class="container">
+    <div>
+      <img src="rocket.png" class="rocket" height="300px">
+    </div>
+    <div class="banner">
+      <video src="pexels_videos_1926295 (1080p).mp4" type="video/mp4" width="500px" autoplay loop></video>
+    </div>
+  </div>
+
+  <!-- créditos -->
+  <div class="footer">
+    <h6>
+      media sources
+    </h6>
+    <p style="font-size: 12px;">
+      <a href="https://www.pexels.com/pt-br/video/video-de-lapso-de-tempo-da-via-lactea-1926295/">faycol bogonko @
+        Pexels</a>
+    </p>
+    <p style="font-size: 12px;">
+      <a href="https://www.flaticon.com/free-icons/rocket">Rocket icons created by Freepik - Flaticon @ Freepik</a>
+    </p>
+  </div>
+
+</body>
+
+</html>
